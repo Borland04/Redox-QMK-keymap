@@ -17,10 +17,13 @@ Mostly installation follows QMK and Redox instructions:
 
 # Configuration screenshots:
 ### Main layout
-![image](https://user-images.githubusercontent.com/17178089/193831082-0c57227e-0b1a-4f8f-ab25-629da057936f.png)
+![image](https://user-images.githubusercontent.com/17178089/219035226-a3581486-45e2-4138-81fa-17abef689ecf.png)
 
-### MO 1 (Numpad + symbols)
-![image](https://user-images.githubusercontent.com/17178089/193831393-b31670cf-2533-43e5-bfdf-e3296f2fa2ce.png)
+### Layout 1 (Numpad)
+![image](https://user-images.githubusercontent.com/17178089/219035308-be7a817e-307d-4c8b-b982-ecfa774be225.png)
 
-## MO 2 (Arrows + mouse)
-![image](https://user-images.githubusercontent.com/17178089/193831709-435a0086-7000-4663-bc1c-cff8cb5fd19b.png)
+## Layout 2 (Keyboard light control)
+![image](https://user-images.githubusercontent.com/17178089/219035363-5b209dad-087c-4b2e-b6bb-1bad11b9aca9.png)
+
+## Layout 3 (Colemak)
+![image](https://user-images.githubusercontent.com/17178089/219035500-ae5b160e-8b8a-4995-a54e-7752599d8dcd.png)
