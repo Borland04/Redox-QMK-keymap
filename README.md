@@ -1,7 +1,19 @@
 # Redox-QMK-keymap
-[QMK](https://docs.qmk.fm/#/) config for [Redox rev1 keyboard](https://github.com/mattdibi/redox-keyboard/tree/master/redox), driven by personal preferences: for coding(+vim), but not too different from plain keyboards.
+[QMK](https://docs.qmk.fm/#/) config for [Redox rev1 keyboard](https://github.com/mattdibi/redox-keyboard/tree/master/redox), driven by personal preferences: for coding(+vim) and gaming, but not too different from plain keyboards.
 
 To configure layouts, [QMK Configurator](https://config.qmk.fm/#/redox/rev1/base/LAYOUT) was used.
+
+### Configuration description
+Keyboard consists of 3 layers:
+* QWERTY;
+* SERVICE (Numpad, RGB control, Media controls);
+* COLEMAK.
+
+Default RGB lightning:
+* QWERTY layer - CYAN BREATHING;
+* CapsLock - RED at LEDs 6 to 15 (Internal side of keyboard);
+* SERVICE layer - YELLOW at LEDS 6 to 15;
+* COLEMAK layer - PURPLE STATIC all LEDS.
 
 # Installation:
 Mostly installation follows QMK and Redox instructions:
@@ -9,21 +21,18 @@ Mostly installation follows QMK and Redox instructions:
 > cd <qmk_firmware>/keyboards/redox/keymaps
 > mkdir <unique_name(your username or so)>
 > cd <unique_name>
-> cp /path/to/keymap.json .
-> qmk json2c keymap.json > keymap.c # Warning: this will overwrite previous config!
+> cp <config.h, config.json, keymap.c> .
+> qmk json2c config.json > keymap_definition.c # Warning: this will overwrite previous config!
 > cd <qmk_firmware>
 > make redox/rev1:<unique_name>:avrdude # Follow Redox instructions - connect one of the halves, press reset button, wait until 'make' is done, repeat with other half.
 ```
 
 # Configuration screenshots:
 ### Main layout
-![image](https://user-images.githubusercontent.com/17178089/219035226-a3581486-45e2-4138-81fa-17abef689ecf.png)
+![image](https://github.com/Borland04/Redox-QMK-keymap/assets/17178089/0b05a261-a036-4b6a-9185-f52ada9a71df)
 
-### Layout 1 (Numpad)
-![image](https://user-images.githubusercontent.com/17178089/219035308-be7a817e-307d-4c8b-b982-ecfa774be225.png)
+### Layout 1 (Service)
+![image](https://github.com/Borland04/Redox-QMK-keymap/assets/17178089/61014ba9-0fc2-4199-9996-f64bba72bc71)
 
-## Layout 2 (Keyboard light control)
-![image](https://user-images.githubusercontent.com/17178089/219035363-5b209dad-087c-4b2e-b6bb-1bad11b9aca9.png)
-
-## Layout 3 (Colemak)
-![image](https://user-images.githubusercontent.com/17178089/219035500-ae5b160e-8b8a-4995-a54e-7752599d8dcd.png)
+## Layout 2 (Colemak)
+![image](https://github.com/Borland04/Redox-QMK-keymap/assets/17178089/8ac647db-2f46-4d92-bd98-a6585454e621)
