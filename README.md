@@ -29,10 +29,10 @@ Mostly installation follows QMK and Redox instructions:
 
 # Configuration screenshots:
 ### Main layout
-![image](https://github.com/Borland04/Redox-QMK-keymap/assets/17178089/0b05a261-a036-4b6a-9185-f52ada9a71df)
+![image](https://github.com/Borland04/Redox-QMK-keymap/assets/17178089/804d32f6-7baa-4c79-a54d-8525a50b19ec)
 
 ### Layout 1 (Service)
-![image](https://github.com/Borland04/Redox-QMK-keymap/assets/17178089/61014ba9-0fc2-4199-9996-f64bba72bc71)
+![image](https://github.com/Borland04/Redox-QMK-keymap/assets/17178089/cc0fe043-eece-4ee4-a04d-04aeb1178242)
 
 ## Layout 2 (Colemak)
-![image](https://github.com/Borland04/Redox-QMK-keymap/assets/17178089/8ac647db-2f46-4d92-bd98-a6585454e621)
+![image](https://github.com/Borland04/Redox-QMK-keymap/assets/17178089/1fd9bedb-c0a6-4385-9ef3-db045b1c6589)
