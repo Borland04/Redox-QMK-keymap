@@ -28,7 +28,6 @@ Mostly installation follows QMK and Redox instructions:
 
 > cd <qmk_firmware>
 > make redox_w:<unique_name>:avrdude`
-Copy-paste `keymap_definition.c` content directly to `keymap.c` or use `#include` directive.
 ```
 
 # Configuration screenshots:
