@@ -6,8 +6,8 @@ To configure layouts, [QMK Configurator](https://config.qmk.fm/#/redox/rev1/base
 ### Configuration description
 Keyboard consists of 3 layers:
 * QWERTY;
-* NUMPAD;
-* SERVICE (Alternative arrows, additional F-keys, Mouse controls).
+* NUMPAD - almost unused;
+* SERVICE (Alternative arrows, additional F-keys, Mouse controls) - actively used.
 
 Keys `F13 - F17` on SERVICE layer are used for media control:
 * On Windows, I use [Sound Switcher](https://soundswitch.aaflalo.me/) to switch audio output/mute microphone using hotkeys 
@@ -33,7 +33,10 @@ Copy-paste `keymap_definition.c` content directly to `keymap.c` or use `#include
 
 # Configuration screenshots:
 ### Main layout
+![image](https://github.com/Borland04/Redox-QMK-keymap/assets/17178089/04e73d6b-a82c-490b-9365-b09c8be8b72b)
 
 ### Layout 1 (NUMPAD)
+![image](https://github.com/Borland04/Redox-QMK-keymap/assets/17178089/7dd05c84-8713-4da4-9cbf-a92fc85f6c6b)
 
 ## Layout 2 (SERVICE)
+![image](https://github.com/Borland04/Redox-QMK-keymap/assets/17178089/500e28b8-d338-42c9-a53c-1eb8b55dc97a)
